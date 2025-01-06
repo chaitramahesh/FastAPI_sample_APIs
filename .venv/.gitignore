@@ -2,7 +2,7 @@
 # environment file
 crud_sample_api.env/
 
-.venv/
+crud_sample_api.venv/
 
 crud_sample_api.modules.__pycache__
 
