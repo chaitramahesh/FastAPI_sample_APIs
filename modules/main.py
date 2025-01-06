@@ -17,6 +17,10 @@ def get_db():
 # Create the database tables
 database.Base.metadata.create_all(bind=database.engine)
 
+# # Create root path
+# @app.get("/")
+# def read_root():
+#     return {"message": "Welcome to the FastAPI application!"}
 
 # Create a new item
 @app.post("/items/", response_model=schemas.ItemResponse)
