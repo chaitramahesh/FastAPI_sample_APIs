@@ -1,8 +1,8 @@
 
 # environment file
-.env/
+crud_sample_api.env/
 
 .venv/
 
-__pycache__
+crud_sample_api.modules.__pycache__
 
